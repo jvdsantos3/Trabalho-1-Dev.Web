@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Vitor dos Santos</title>
+</head>
+<body>
+    <header>
+        <h1>Página Pessoal de João Vitor dos Santos</h1>
+        <nav>
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#info-pessoais">Informações pessoais</a></li>
+                <li><a href="#info-profissionais">Informações profissionais</a></li>
+                <li><a href="#faculdade">Faculdade</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="info-pessoais">
+            <h2>Informações pessoais</h2>
+            <p>Me chamo João vitor, tenho 20 anos e faço Ciências da Computação na faculdade Estácio.</p>
+        </section>
+        <section id="info-profissionais">
+            <h2>Informações profissionais</h2>
+            <p>Sem experiência profissional.</p>
+        </section>
+        <section id="faculdade">
+            <h2>Faculdade</h2>
+            <ol>
+                <li>
+                    <h3>Diciplinas cursadas</h3>
+                    <ul>
+                        <li>Introdução à programação estruturada em C</li>
+                        <li>Arquitetura de computadores</li>
+                        <li>Fundamentos de redes de computadores</li>
+                        <li>Introdução à segurança da informação</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Diciplinas que estou cursando</h3>
+                    <ul>
+                        <li>Desenvolvimento Web em HTML5, CSS, JavaScript e PHP</li>
+                        <li>Engenharia de Software</li>
+                        <li>Banco de Dados</li>
+                        <li>Paradigmas de Linguagens de Programação em Python</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section id="tecnologias">
+            <h2>Tecnologias que domino</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form method="post">
+                <fieldset>
+                    <legend>Dados pessoais:</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="exemplo@dominio.com"><br>
+                    <label for="sitio">Sítio eletrônico:</label>
+                    <input type="text" id="sitio" name="sitio" required placeholder="www.exemplo.com.br"><br>
+                    <label for="nascimento">Nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Sexo:</legend>
+                    <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Estudante ou Profissional:</legend>
+                    <input type="radio" id="estudante" name="ocupacao" value="estudante" required>
+                    <label for="estudante">Estudante</label>
+                    <input type="radio" id="profissional" name="ocupacao" value="profissional" required>
+                    <label for="profissional">Profissional</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Áreas de interesse:</legend>
+                    <input type="checkbox" id="programacao" name="programacao" value="programacao">
+                    <label for="programacao"> Programação</label><br>
+                    <input type="checkbox" id="data-science" name="data-science" value="datascience">
+                    <label for="data-science"> Data Science</label><br>
+                    <input type="checkbox" id="devops" name="devops" value="devops">
+                    <label for="devops"> Devops</label><br>
+                    <input type="checkbox" id="uxdesign" name="uxdesign" value="uxdesign">
+                    <label for="uxdesign"> UX & Design</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagem:</legend>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+                </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; Copyright Todos os direitos reservados, Site de autoria de João Vitor dos Santos.</p>
+    </footer>
+</body>
+</html>
